@@ -1,3 +1,3 @@
 # https://aqurik.fun
 Finally I have my own website :) 
-Open-source btw
+Feel free to copy !! 
