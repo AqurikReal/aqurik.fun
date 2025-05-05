@@ -1,1 +1,6 @@
-
+if (window.location.href == "http://aqurik.fun"){
+  window.location.href = "https://aqurik.fun";
+}
+if (window.location.href == "http://www.aqurik.fun"){
+  window.location.href = "https://aqurik.fun";
+}
