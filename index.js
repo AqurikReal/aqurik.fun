@@ -2,4 +2,4 @@
 if (location.protocol !== 'https:'){
   console.log("Redirecting to https...");
   location.replace('https://' + location.href.split('//')[1]);
-}
+};
