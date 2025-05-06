@@ -9,7 +9,7 @@ if (location.protocol !== 'https:'){
 
 
 
-if (navigator.userAgent.match(/android|iphone|blackberry/)){
+if (window.navigator.userAgent.toLowerCase().includes("mobile")){
   console.log("Redirecting to mobile version...");
   location.href('https://aqurik.fun/mobile');
 };
