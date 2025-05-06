@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 40px 0;
-    font-family: sans-serif;
-    background: #1e1e1e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #00ff08;
     background-image: url("bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #f0f0f0;
+    color: #33ff00;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,24 +16,24 @@ body {
   
   .container {
     text-align: center;
-    background: #373737;
+    background: #374c4f;
     padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 0 15px rgb(143, 156, 255);
+    box-shadow: 0 0 1555px rgba(146, 255, 87, 0.451);
     width: 300px;
   }
 
   .textbox {
     text-align: center;
-    background: #222222;
+    background: #000000;
     padding: 20px;
     border-radius: 12px;
-    box-shadow: 0 0 155px rgba(246, 69, 255, 0.5);
+    box-shadow: 0 0 15555prgba(255, 0, 0, 0.5)5;
     width: 920px;
   }
   
   .avatar {
-    width: 110px;
+    width: 250px;
     height: 110px;
     border-radius: 50%;
     object-fit: cover;
@@ -47,7 +47,7 @@ body {
   }
   
   .links a {
-    color: #00bfff;
+    color: #8400ff;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;

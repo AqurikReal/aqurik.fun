@@ -1,14 +1,20 @@
 // TODO: FIX MOBILE CHECK: Done
+// TODO: MAKE TABS
+// TODO: ADD "FUN" (sandbox thing)
 
-console.log("JS test");
+var NoHttps = false; // http mode (Used for testing and local hosting)
 
 // redirects from http to https
 if (location.protocol !== 'https:'){
-  console.log("Redirecting to https...");
-  location.replace('https://' + location.href.split('//')[1]);
-};
+  if (!NoHttps){
+    console.log("Redirecting to https...");
+    location.replace('https://' + location.href.split('//')[1]);
+  }
+}
 
 if (/Mobi|Android|iPhone|Tablet|iPad|iPod/i.test(navigator.userAgent)) {
-  console.log("Redirecting to mobile version...");
-  window.location.href = 'https://aqurik.fun/mobile';
+  if (!NoHttps){
+    console.log("Redirecting to mobile version...");
+    window.location.href = 'https://aqurik.fun/mobile';
+  }
 }
