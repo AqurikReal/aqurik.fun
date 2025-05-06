@@ -1,7 +1,7 @@
 // redirects from http to https
 if (location.protocol !== 'https:'){
   console.log("Redirecting to https...");
-  location.href('https://' + location.href.split('//')[1]);
+  location.replace('https://' + location.href.split('//')[1]);
 };
 
 
@@ -12,5 +12,5 @@ console.log("aaa")
 
 if (mobile){
   console.log("Redirecting to mobile version...");
-  location.href('https://aqurik.fun/mobile');
+  location.replace('https://aqurik.fun/mobile');
 };
