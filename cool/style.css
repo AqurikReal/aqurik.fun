@@ -20,7 +20,7 @@ body {
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 0 1555px rgba(146, 255, 87, 0.451);
-    width: 300px;
+    width: 220px;
   }
 
   .textbox {
@@ -29,7 +29,7 @@ body {
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 0 15555prgba(255, 0, 0, 0.5)5;
-    width: 920px;
+    width: 1920px;
   }
   
   .avatar {
@@ -47,8 +47,9 @@ body {
   }
   
   .links a {
-    color: #8400ff;
+    color: #00ffea;
     text-decoration: none;
+    font-size: x-large;
     margin: 0 10px;
     font-weight: bold;
     position: relative;
@@ -56,6 +57,14 @@ body {
 
   .top a {
     color: tan;
+    text-decoration-style: solid;
+    margin: 0 12px;
+    font-size: x-large;
+    font-weight: bold;
+    position: relative;
+  }
+  .top span {
+    color: rgb(255, 0, 0);
     text-decoration-style: solid;
     margin: 0 12px;
     font-size: x-large;
