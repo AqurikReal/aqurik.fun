@@ -7,7 +7,7 @@ if (location.protocol !== 'https:'){
 
 
 
-if (false){
+if (/Mobile/i.test(navigator.userAgent)){
   console.log("Redirecting to mobile version...");
   location.replace('https://aqurik.fun/mobile');
 };
