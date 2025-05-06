@@ -8,7 +8,7 @@ if (location.protocol !== 'https:'){
   location.replace('https://' + location.href.split('//')[1]);
 };
 
-if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+if (/Mobi|Android|iPhone|Tablet|iPad|iPod/i.test(navigator.userAgent)) {
   console.log("Redirecting to mobile version...");
   window.location.href = 'https://aqurik.fun/mobile';
 }
