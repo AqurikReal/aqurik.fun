@@ -1,4 +1,4 @@
-// TODO: FIX MOBILE CHECK
+// TODO: FIX MOBILE CHECK: Done
 
 console.log("JS test");
 
@@ -10,5 +10,5 @@ if (location.protocol !== 'https:'){
 
 if (/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
   console.log("Redirecting to mobile version...");
-  location.replace('https://aqurik.fun/mobile');
+  window.location.href = 'https://aqurik.fun/mobile';
 }
