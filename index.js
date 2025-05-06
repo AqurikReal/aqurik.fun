@@ -1,10 +1,15 @@
 // redirects from http to https
 if (location.protocol !== 'https:'){
   console.log("Redirecting to https...");
-  location.replace('https://' + location.href.split('//')[1]);
+  location.href('https://' + location.href.split('//')[1]);
 };
 
-if (navigator.userAgentData.mobile){
+
+
+
+
+
+if (navigator.userAgent.match(/android|iphone|blackberry/)){
   console.log("Redirecting to mobile version...");
-  location.replace('https://aqurik.fun/mobile');
+  location.href('https://aqurik.fun/mobile');
 };
