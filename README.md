@@ -1,4 +1,4 @@
-# https://aqurik.fun - Feel free to copy :)
+# https://aqurik.fun
 
 
 
@@ -21,4 +21,4 @@ A very satire joke, how original <br />
 
 
 
-*Also this is my first serious project so please dont send me a pipebomb in my mailbox for terrible html formating, also nice feedback is always welcome ! :)*
+*This is my first serious project so please dont send me pipebombs for my terrible html formating, also nice feedback is always welcome ! :)*
