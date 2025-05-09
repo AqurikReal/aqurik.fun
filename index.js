@@ -1,6 +1,3 @@
-// TODO: FIX MOBILE CHECK: Done
-// TODO: MAKE TABS
-// TODO: ADD "FUN" (sandbox thing)
 
 var NoHttps = false; // http mode (Used for testing and local hosting)
 
