@@ -10,15 +10,10 @@ My Bio. That's all <br />
 A very satire joke, how original <br />
 [Visit](https://aqurik.fun/cool) | [Screenshot](https://github.com/user-attachments/assets/1bd31fd0-ba89-4295-a4af-d6c0ba674067)
 ## Info
-### Roadmap
-* I'm planning to add new Things & Bug fixes: I make commits almost every day <br />
-* You can check the Issues Tab and Index.js (not very professional, ik) for the TODO list <br />
+* This website is my first big project, so please forgive me for my html formating. <br />
+* You can check the Issues Tab for the TODO list <br />
 ### Want to contibute?
 * Want to report a bug / suggest a feature or tell me how bad my code is ? - Open an issue.
 * Want to add something new ? - Make a pull request
 * Want to tell me how my bad code is in-person ? - mail me aqurik@aqurik.fun
 
-
-
-
-*This is my first serious project so please dont send me pipebombs for my terrible html formating, also nice feedback is always welcome ! :)*
