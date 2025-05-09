@@ -48,7 +48,7 @@ body {
   
   .links a {
     color: #00ffea;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: x-large;
     margin: 0 10px;
     font-weight: bold;
