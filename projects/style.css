@@ -1,0 +1,61 @@
+body {
+    background: #1e1e1e;
+    color: azure;
+  }
+  
+
+#titleBar{
+    display: block;
+    text-align: left;
+    text-shadow: 0 0 15px greenyellow;
+    color: greenyellow;
+    font-size: 3em;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.titleBar{
+    display: block;
+    text-align: left;
+    text-shadow: 0 0 15px greenyellow;;
+    color: greenyellow;
+    font-size: 3em;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.lessTitleBar{
+    display: block;
+    color: cornflowerblue;
+    text-align: left;
+    font-size: 6em;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+#input {
+    
+    text-align: left;
+    text-shadow: 0 0 5px greenyellow;;
+    color: greenyellow;
+    font-family: "Ubuntu Mono", monospace;
+    width: 18em; 
+    height: 3em; 
+    font-size: 3em;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.terminalLog {
+    display: block;
+    text-align: left;
+    text-shadow: 0 0 15px greenyellow;;
+    color: greenyellow;
+    font-size: 3em;
+    font-family: "Ubuntu Mono", monospace;
+
+}
