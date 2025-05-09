@@ -4,7 +4,7 @@ body {
     font-family: sans-serif;
     background: #1e1e1e;
     background-image: url("bg.webp");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: #f0f0f0;
