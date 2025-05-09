@@ -31,6 +31,7 @@ function ls(){
     termlog(textf="/home - Home Page")
     termlog(textf="/projects - Terminal")
     termlog(textf="/cool - The Cooler Home Page")
+    termlog(textf="/mobile - We don't discuss this here..")
     termlog(textf="")
 }
 
@@ -38,6 +39,7 @@ function ls(){
 document.getElementById("input").addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
         command = event.target.value.trim("");
+        document.getElementById("projectsThing").textContent = "Aqurik.fun"
         event.target.value = ""; 
 
         if (command.startsWith("cd")){
