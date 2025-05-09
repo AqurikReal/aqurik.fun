@@ -2,7 +2,7 @@
 // TODO: MAKE TABS
 // TODO: ADD "FUN" (sandbox thing)
 
-var NoHttps = false; // http mode (Used for testing and local hosting)
+var NoHttps = true; // http mode (Used for testing and local hosting)
 
 // redirects from http to https
 if (location.protocol !== 'https:'){

@@ -64,5 +64,38 @@ body {
   }
   
 
+  .bob {
+    vertical-align: middle;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 1em;
+    height: 1em;
+    background-size: contain;
+  }
 
-
+  .happy {
+    background-image: url('bobs/bob_happy.png');
+  }
+  .coding {
+    background-image: url('bobs/bob_coding.png');
+  }
+  .swag {
+    background-image: url('bobs/bob_swag.png');
+  }
+  .wtf {
+    background-image: url('bobs/bob_wtf.png');
+  }
+  .question {
+    background-image: url('bobs/bob_question.png');
+  }
+  .lol {
+    background-image: url('bobs/bob_lol.png');
+  }
+  .angry {
+    background-image: url('bobs/bob_angry.png');
+  }
+  .bobs {
+    background-image: url('bobs/bobs.gif');
+  }
+  
+  
