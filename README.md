@@ -10,8 +10,8 @@ My Bio. That's all <br />
 A very satire joke, how original <br />
 [Visit](https://aqurik.fun/cool) | [Screenshot](https://github.com/user-attachments/assets/1bd31fd0-ba89-4295-a4af-d6c0ba674067)
 ## Info
-### What's next
-* New Things & Bug fixes: I’m adding more cool stuff almost every day <br />
+### Roadmap
+* I'm planning to add new Things & Bug fixes: I make commits almost every day <br />
 * You can check the Issues Tab and Index.js (not very professional, ik) for the TODO list <br />
 ### Want to contibute?
 * Want to report a bug / suggest a feature or tell me how bad my code is ? - Open an issue.
