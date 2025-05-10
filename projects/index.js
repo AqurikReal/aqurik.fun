@@ -88,11 +88,10 @@ document.getElementById("easy").onclick = function(){
 
 document.getElementById("input").addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
-        command = event.target.value.trim("");
+        command = event.target.value.trim();
         document.getElementById("projectsThing").textContent = "Aqurik.fun";
         document.getElementById("easy").style.marginLeft = "48em";
         event.target.value = ""; 
-
         if (command.startsWith("cd")){
             let commandTrimmed = command.trim("");
             let dir = commandTrimmed.replace("cd", "");
@@ -117,7 +116,6 @@ document.getElementById("input").addEventListener("keydown", (event) => {
             }
 
         }
-
         else if (command.startsWith("clear")){
             const outputz = document.getElementById("terminal-output");
             outputz.innerHTML = "";
@@ -134,18 +132,14 @@ document.getElementById("input").addEventListener("keydown", (event) => {
         else if (command.startsWith("echo")){
             let echot = command.replace("echo", "");
             termlog(textf=echot);
-        }
-
-        }
+        }      
         else if (command.startsWith("echo")){
             let echot = command.replace("echo", "");
             termlog(textf=echot);
         }
-
         else if (command.startsWith("hide-easy")){
             document.getElementById("easy").style.display = "none";
         }
-
         else if (command.startsWith("easy-mode")){
             easypopup();
         }
@@ -153,4 +147,5 @@ document.getElementById("input").addEventListener("keydown", (event) => {
             help();
         }
 
-    })
+    }
+});
