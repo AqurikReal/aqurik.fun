@@ -3,12 +3,10 @@
 
 
 ## Pages:
-### 1 - Normal home page
+### 1 - Home page
 My Bio. That's all <br />
 [Visit](https://aqurik.fun) | [Screenshot](https://github.com/user-attachments/assets/b17cf286-553e-438d-93f5-ea756d8f794a)
-### 2 - The "cooler" page 
-A very satire joke, how original <br />
-[Visit](https://aqurik.fun/cool) | [Screenshot](https://github.com/user-attachments/assets/1bd31fd0-ba89-4295-a4af-d6c0ba674067)
+
 ## Info
 * This website is my first big project, so please forgive me for my html formating. <br />
 * You can check the Issues Tab for the TODO list <br />
