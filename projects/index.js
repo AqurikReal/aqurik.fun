@@ -151,8 +151,6 @@ document.getElementById("input").addEventListener("keydown", (event) => {
         }
         else{
             help();
-        };
+        }
 
-    }
-    ,
-)
+    })
