@@ -1,7 +1,7 @@
 // oh god forgive me
 
 
-var NoHttps = false; // http mode (Used for testing and local hosting)
+var NoHttps = true; // http mode (Used for testing and local hosting)
 
 // Redirects
 
@@ -141,7 +141,7 @@ document.getElementById("input").addEventListener("keydown", (event) => {
             document.getElementById("easy").style.display = "none";
         }
         else if (command.startsWith("easy-mode")){
-            easypopup();
+            easypopup()
         }
         else{
             help();
