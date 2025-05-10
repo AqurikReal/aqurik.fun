@@ -147,7 +147,7 @@ document.getElementById("input").addEventListener("keydown", (event) => {
         }
 
         else if (command.startsWith("easy-mode")){
-            easypopup()
+            easypopup();
         }
         else{
             help();
