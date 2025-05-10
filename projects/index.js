@@ -59,7 +59,8 @@ function helpfr(){
     termlog(textf="cd <dir> - Changes directory (Ex: cd home | cd cool | cd /projects)")
     termlog(textf="clear - clears output (Ex: clear)")
     termlog(textf="echo - send text (Ex: echo wow | echo I love gd cologne)")
-    termlog(textf="hide-easy - hides easy mode (Ex: hide-easy)")
+    termlog(textf="hide-easy - hides easy mode button (Ex: hide-easy)")
+    termlog(textf="easy-mode - displays easy mode message (Ex: easy)")
     termlog(textf="help - displays help message (Ex: help)")
     termlog(textf="")
 }
@@ -71,14 +72,17 @@ function ls(){
     termlog(textf="/mobile - We don't discuss this here..")
     termlog(textf="")
 }
-
-document.getElementById("easy").onclick = function(){
+function easypopup(){
     termlog("");
     termlink("Home Page", "https://aqurik.fun");
     termlink("Projects Page","https://aqurik.fun/projects")
     termlink("The Cooler Homepage", "https://aqurik.fun/cool");
     termlink("Mobile Redirect", "https://aqurik.fun/mobile");
     termlog("");
+}
+
+document.getElementById("easy").onclick = function(){
+    easypopup()
 }
 
 
@@ -132,13 +136,23 @@ document.getElementById("input").addEventListener("keydown", (event) => {
             termlog(textf=echot);
         }
 
+        }
+        else if (command.startsWith("echo")){
+            let echot = command.replace("echo", "");
+            termlog(textf=echot);
+        }
+
         else if (command.startsWith("hide-easy")){
             document.getElementById("easy").style.display = "none";
+        }
+
+        else if (command.startsWith("easy-mode")){
+            easypopup()
         }
         else{
             help();
         };
 
 
-    };
-});
+    }
+)
