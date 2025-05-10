@@ -50,6 +50,7 @@ body {
     appearance: none;
 }
 
+
 .terminalLog {
     display: block;
     text-align: left;
@@ -58,4 +59,19 @@ body {
     font-size: 3em;
     font-family: "Ubuntu Mono", monospace;
 
+}
+
+.Link{
+    display: block;
+    text-align: left;
+    text-shadow: 0 0 15px rgb(47, 179, 255);;
+    color: rgb(47, 220, 255);
+    font-size: 1.5em;
+    font-family: "Ubuntu Mono", monospace;
+
+}
+#easy{
+    
+    font-size: xx-large;
+    margin-left: 34em;
 }
