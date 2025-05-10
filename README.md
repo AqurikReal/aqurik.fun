@@ -6,7 +6,7 @@
 ### 1 - Home page
 My Bio. That's all <br />
 [Visit](https://aqurik.fun) | [Screenshot](https://github.com/user-attachments/assets/b17cf286-553e-438d-93f5-ea756d8f794a)
-### 2- Projects page
+### 2 - Projects page
 Terminal. <br />
 [Visit](https://aqurik.fun/projects) | [Screenshot](https://github.com/user-attachments/assets/24dc8526-f594-4bfc-ae44-d3ae6dd9c16c)
 ## Info
