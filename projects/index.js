@@ -153,6 +153,6 @@ document.getElementById("input").addEventListener("keydown", (event) => {
             help();
         };
 
-
     }
+    ,
 )
