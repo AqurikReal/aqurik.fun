@@ -1,7 +1,6 @@
 # https://aqurik.fun
 
 
-
 ## Pages:
 ### 1 - Home page
 My Bio. That's all <br />
