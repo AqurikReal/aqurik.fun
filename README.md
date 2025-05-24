@@ -17,3 +17,4 @@ Terminal. <br />
 * Want to add something new ? - Make a pull request
 * Want to tell me how my bad code is in-person ? - mail me aqurik@aqurik.fun
 
+> I remembered my GitHub password, now I will work on this project 24/7
