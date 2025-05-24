@@ -69,6 +69,7 @@ function ls(){
     termlog(textf="/home - Home Page")
     termlog(textf="/projects - Terminal")
     termlog(textf="/cool - The Cooler Home Page")
+    termlog(textf="/sandbox - Cool sandbox game")
     termlog(textf="/mobile - We don't discuss this here..")
     termlog(textf="")
 }
@@ -77,6 +78,7 @@ function easypopup(){
     termlink("Home Page", "https://aqurik.fun");
     termlink("Projects Page","https://aqurik.fun/projects")
     termlink("The Cooler Homepage", "https://aqurik.fun/cool");
+    termlink("Sandbox", "https://aqurik.fun/sandbox");
     termlink("Mobile Redirect", "https://aqurik.fun/mobile");
     termlog("");
 }
