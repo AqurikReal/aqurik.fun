@@ -8,7 +8,7 @@
 
 
 
-var NoHttps = true; // http mode (Used for testing and local hosting)
+var NoHttps = false; // http mode (Used for testing and local hosting)
 
 // Redirects
 
