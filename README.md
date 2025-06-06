@@ -9,7 +9,7 @@ My Bio. That's all <br />
 Terminal. <br />
 [Visit](https://aqurik.fun/projects) | [Screenshot](https://github.com/user-attachments/assets/24dc8526-f594-4bfc-ae44-d3ae6dd9c16c)
 ## Info
-* This website is my first big project, so please forgive me for my html formating. <br />
+* This is my first Website, forgive me for my bad JS knowledge
 * You can check the Issues Tab for the TODO list <br />
 ### Want to contibute?
 
