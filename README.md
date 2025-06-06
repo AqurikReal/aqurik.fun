@@ -15,4 +15,4 @@ Terminal. <br />
 
 * Want to report a bug / suggest a feature or tell me how bad my code is ? - Open an issue.
 * Want to add something new ? - Make a pull request
-* Want to tell me how my bad code is in-person ? - mail me aqurik@aqurik.fun
+* Want to tell me how bad my code is in-person ? - Email me (aqurik@aqurik.fun)
