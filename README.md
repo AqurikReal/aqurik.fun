@@ -10,7 +10,7 @@ Terminal. <br />
 [Visit](https://aqurik.fun/projects) | [Screenshot](https://github.com/user-attachments/assets/24dc8526-f594-4bfc-ae44-d3ae6dd9c16c)
 ## Info
 * This is my first Website, forgive me for my bad JS knowledge
-* You can check the Issues Tab for the TODO list <br />
+* You can check the Issues Tab for the TODO list (Currently the TODO list is empty)<br />
 ### Want to contibute?
 
 * Want to report a bug / suggest a feature or tell me how bad my code is ? - Open an issue.
